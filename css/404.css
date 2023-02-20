@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frem{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../asssets/gifs.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.frem p{
+    position: absolute;
+    top: 3rem;
+    font-size: 7rem;
+    color: #00000063;
+}
+.frem h2{
+    position: absolute;
+    bottom: 8rem;
+    font-size: 34px;
+}
+.frem h5{
+    position: absolute;
+    bottom: 6rem;
+    color: #9c9c9c;
+}
+.frem button{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #FFD124;
+    color: #333;
+    cursor: pointer;
+    margin-top: 80vh;
+}
+.btn:hover{
+    background-color: #af8f1a;
+}
+
+footer{
+    margin-top: 0vh;
+}
